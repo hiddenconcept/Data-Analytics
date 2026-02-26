@@ -11,7 +11,7 @@ A collection of personal and open-source data analytics projects covering data c
 | **Languages** | Python, SQL |
 | **Libraries** | Pandas, NumPy, Matplotlib, Seaborn |
 | **Visualization** | Tableau, Power BI |
-| **Notebooks** | Jupyter Notebook |
+| **Notebooks** | PyCharm |
 | **Version Control** | Git, GitHub |
 
 > ✏️ *Update this table to reflect the tools you actually use.*
