@@ -1,9 +1,9 @@
-# 📊 Data Analytics Portfolio 📊
+# 📊 Data Analytics Portfolio 
 A collection of personal and open-source data analytics projects covering data cleaning, exploration, visualization, and analysis across a variety of datasets and domains.
 
 ---
 
-## 🛠️ Tools & Technologies 🛠️ 
+## 🛠️ Tools & Technologies  
 
 | Category | Tools |
 |---|---|
@@ -15,7 +15,7 @@ A collection of personal and open-source data analytics projects covering data c
 
 ---
 
-## 📁 Folder Structure 📁
+## 📁 Folder Structure 
 ```
 data-analytics/
 │
@@ -30,7 +30,7 @@ data-analytics/
 
 ---
 
-## 📌 Projects 📌
+## 📌 Projects                                                                                                                                             
 
 | Project | Description | Tools |
 |---|---|---|
@@ -42,7 +42,7 @@ data-analytics/
 
 ---
 
-## 🚀 Getting Started 🚀
+## 🚀 Getting Started 
 
 Most projects use Python and Jupyter Notebook. To run them locally:
 ```bash
