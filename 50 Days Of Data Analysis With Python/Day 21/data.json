@@ -1,0 +1,37 @@
+[
+  {
+    "Unnamed: 0":3,
+    "date":"2021-11-07",
+    "products":"cars",
+    "sales":15900,
+    "costs":10910
+  },
+  {
+    "Unnamed: 0":4,
+    "date":"2021-12-06",
+    "products":"boats",
+    "sales":12087,
+    "costs":7087
+  },
+  {
+    "Unnamed: 0":5,
+    "date":"2021-12-09",
+    "products":"cars",
+    "sales":56897,
+    "costs":40447
+  },
+  {
+    "Unnamed: 0":6,
+    "date":"2021-11-10",
+    "products":"cars",
+    "sales":11879,
+    "costs":5879
+  },
+  {
+    "Unnamed: 0":7,
+    "date":"2021-12-06",
+    "products":"houses",
+    "sales":19345,
+    "costs":13451
+  }
+]
