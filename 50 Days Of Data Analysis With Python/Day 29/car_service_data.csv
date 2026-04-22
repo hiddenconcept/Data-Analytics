@@ -1,0 +1,5 @@
+Service ID,Service Type,Service Cost,Service Revenue,Number of Customers,Advertising Cost,Location
+1,Oil Change,$25,$50,$10,$100,Urban
+2,Brake Repair,$200,$500,$5,$50,Suburban
+3,Tire Rotation,$30,$75,$12,$150,Rual
+4,Transmission Repair,"$1,000","$2,500",$2,$200,Urban
