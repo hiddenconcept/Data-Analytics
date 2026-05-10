@@ -1,7 +1,7 @@
-About Dataset
+**About Dataset
 Kaggle Dataset: Logistics Operations Database (2022-2024)
 About this Dataset
-What's Inside
+What's Inside**
 
 A complete operational database from a fictional Class 8 trucking company spanning three years. This isn't scraped web data or simplified tutorial content—it's a realistic simulation built from 12 years of real-world logistics experience, designed specifically for analysts transitioning into supply chain and transportation domains.
 
@@ -138,4 +138,25 @@ Simplified:
     Customer contracts simplified to term length
     Route planning without traffic/construction
 
+**Data Modeling Progress**
+The Star Schema design and relationship mapping for all 14 Excel files has now been completed.
+The dataset has been structured to support efficient analytics workflows, reporting, and dashboard development by organizing the data into connected fact and dimension tables. Relationships between operational and reference tables were created to maintain consistency, improve query performance, and enable more advanced analysis within tools such as Power BI and SQL environments.
+This phase included:
 
+
+Building relationships across all 14 tables
+
+
+Defining primary and foreign key connections
+
+
+Organizing fact and dimension tables into a Star Schema structure
+
+
+Preparing the dataset for Power BI modeling and visualization
+
+
+Improving analytical usability for reporting and KPI development
+
+
+The project will continue expanding with additional dashboards, SQL analysis, and operational insights as development progresses.
