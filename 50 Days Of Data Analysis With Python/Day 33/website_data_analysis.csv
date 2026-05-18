@@ -1,4 +1,4 @@
-website,visits,bounce,conversion,days_of_value,unique_visit,referral_sent,revenue
+website,visits,bounce,conversion,days_of_value,unique_visitors,referral_sent,revenue
 boss.com,5000,20,3,Monday,3000,Google,1000
 python.com,3500,25,2,Tuesday,2800,Facebook,800
 wild.com,6000,15,4,Wedsnesday,3900,Twitter,1200
