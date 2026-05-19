@@ -9,10 +9,6 @@ import seaborn as sns
 # Load the dataset
 df = pd.read_csv("website_data_analysis.csv")
 
-# -----------------------------
-# Basic analysis
-# -----------------------------
-
 # Average bounce by day of week
 average_bounce = df.groupby("day_of_week")["bounce"].mean()
 print("\nAverage Bounce by Day:\n", average_bounce)
@@ -42,10 +38,6 @@ plt.xticks(rotation=45)
 
 plt.tight_layout()
 plt.show()
-
-# -----------------------------
-# Seaborn line plot (FIXED)
-# -----------------------------
 
 # Group by day of week (average unique visitors)
 visitors_by_day = df.groupby("day_of_week")["unique_visitors"].mean().reset_index()
