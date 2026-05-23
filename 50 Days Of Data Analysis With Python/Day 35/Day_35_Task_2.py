@@ -27,10 +27,10 @@ print("\nTotal NaN values in dataset:")
 print(df.isna().sum().sum())
 
 
-# 2. Drop rows where ALL values are NaN
+#  Drop rows where ALL values are NaN
 df = df.dropna(how='all')
 
-# 3. Replace remaining NaN values with 0.0
+#  Replace remaining NaN values with 0.0
 df = df.fillna(0.0)
 
 print("\nCleaned DataFrame (first 5 rows):")
