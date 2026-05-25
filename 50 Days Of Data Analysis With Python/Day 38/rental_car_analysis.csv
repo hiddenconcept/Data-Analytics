@@ -1,4 +1,4 @@
-Date,City,Car Type,Rental Price,Disocunt,Final Price
+Date,City,Car Type,Rental Price,Discount,Final Price
 1 01 2022,New York,SUV,,,74
 1 01 2022,Chicago,Van,179,0.123537522,156.8867835
 1 01 2022,Los Angeles,Van,,0,144
