@@ -1,8 +1,7 @@
 #In this challenge, you will analyze and transform data.
 # You will import the cars_and_careers CSV file. Here is a sample of the dataset below:
 
-#4. Using the pandas.str.find() method,
-# write a code to confirm if the name "Ben" has been removed from the DataFrame.
+#5. What car does a person by the name of "Emily" drive? And what is her occupation?
 
 import pandas as pd
 
@@ -18,10 +17,9 @@ df.iloc[0] = ["Casy", "Unknown", 31, "Ford"]
 # Remove last row
 df = df.iloc[:-1]
 
-# Check for "Ben" using str.find()
-ben_check = df['Name'].astype(str).str.find('Ben')
+# Find Emily's information
+emily = df[df['Name'] == 'Emily']
 
-if (ben_check >= 0).any():
-    print("Ben is still in the DataFrame...")
-else:
-    print("Ben has been removed from the DataFrame!")
+print("\nEmily:")
+print("Car:", emily['Car'].values[0])
+print("Occupation:", emily['Occupation'].values[0])
