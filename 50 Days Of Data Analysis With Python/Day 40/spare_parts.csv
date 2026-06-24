@@ -1,7 +1,6 @@
-spare_part,quanity,costs,sale_price,date,total_revenue
-Wheel,24,30,53,1 01 2020," $1,272.00 "
-Tyre,20,80,110,2 01 2020," $2,200.00 "
-Battery,46,85,95,3 01 2020," $4,370.00 "
-Air Filter,37,36,48,4 01 2020," $1,776.00 "
-Oil Filter,28,96,120,5 01 2020," $3,360.00 "
-,,,,,
+spare_part,quantity,costs,sale_price,date,total_revenue
+Wheel,24,30,53,1 01 2020,"$1,272.00"
+Tyre,20,80,110,2 01 2020,"$2,200.00"
+Battery,46,85,95,3 01 2020,"$4,370.00"
+Air Filter,37,36,48,4 01 2020,"$1,776.00"
+Oil Filter,28,96,120,5 01 2020,"$3,360.00"
