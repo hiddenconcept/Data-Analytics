@@ -1,27 +1,25 @@
 #You are going to analyze the sales data of a spare parts business.
 #You are going to use the spare_parts.csv dataset.
 
-#7 The Seaborn pairplot is a very important tool for visualizing relationships between variables in a dataset.
-#Use the pairplot to visualize the relationship of all the variables in the dataset (hue="spare_parts").
+#8 Use a Seaborn barplot to visualize the distribution of quantities for each item.
 
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Load dataset
 df = pd.read_csv("spare_parts.csv")
 
-# Clean revenue column
-df['total_revenue'] = (
-    df['total_revenue']
-    .str.replace('$', '', regex=False)
-    .str.replace(',', '', regex=False)
-    .astype(float)
+# Create barplot
+sns.barplot(
+    data=df,
+    x='spare_part',
+    y='quantity'
 )
 
-sns.pairplot(
-    df,
-    vars=['quantity', 'costs', 'sale_price', 'total_revenue'],
-    hue='spare_part'
-)
+# Labels and title
+plt.title('Quantity Distribution by Spare Part')
+plt.xlabel('Spare Part')
+plt.ylabel('Quantity')
 
 plt.show()
