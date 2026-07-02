@@ -6,16 +6,19 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('time_series_data.csv')
+df = pd.read_csv("time_series_data.csv")
 
 # Convert the date column to datetime
-df['date'] = pd.to_datetime(df['date'])
+df["date"] = pd.to_datetime(df["date"])
 
-# Set Date as the index
-df.set_index('date', inplace=True)
+# Convert the value column to numeric, invalid values become NaN
+df["value"] = pd.to_numeric(df["value"], errors="coerce")
 
-# Resample at daily intervals and calculate maximum value for each day
-daily_max = df.resample('D').max()
+# Set the date column as the index
+df.set_index("date", inplace=True)
+
+# Resample by day and calculate the maximum value for each day
+daily_max = df.resample("D")["value"].max()
 
 # Display the result
-print(daily_max.head())
+print(daily_max)
